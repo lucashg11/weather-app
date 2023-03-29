@@ -14,7 +14,7 @@ search.addEventListener('click', ()=>{
 
     const APIKey = 'ecddfda09f8b9a173cd1c99a7195f6d4';
     const city = document.querySelector('.search-box input').value;
-    const URL = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${APIKey}&lang=es&units=metric`;
+    const URL = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${APIKey}&units=metric`;
     
     if(city === '')
         return;
